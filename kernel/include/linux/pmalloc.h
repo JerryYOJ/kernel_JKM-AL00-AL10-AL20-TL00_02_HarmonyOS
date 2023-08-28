@@ -12,7 +12,7 @@
 
 #ifndef _PMALLOC_H
 #define _PMALLOC_H
-#ifdef CONFIG_HISI_PMALLOC
+#if 0
 
 
 #include <linux/genalloc.h>
