@@ -236,10 +236,10 @@ static inline int check_input_params(struct gen_pool *pool, size_t req_size)
 	if (NULL == data)
 		return -1;
 
-	if (unlikely(data->protected)) {
-		WARN_ON(1);
-		return -1;
-	}
+	//if (unlikely(data->protected)) {
+	//	WARN_ON(1);
+	//	return -1;
+	//}
 	return 0;
 }
 /*lint -e429*/
